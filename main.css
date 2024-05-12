@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(223, 223, 223);
+}
+
+.container{
+    max-width: 700px;
+    margin: 100px auto;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+header h1 {
+    font-size: 45px;
+}
+header img{
+    height: 32px;
+    margin-right: 8px;
+}
+form{
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+form input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 7px;
+    font-size: 20px;
+}
+button{
+    border: none;
+    background-color: green;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(0, 75, 0);
+}
+
+table thead th{
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+table tbody td{
+    border-bottom: 2px solid rgb(158, 158, 158, 45);
+    padding: 8px;
+}
